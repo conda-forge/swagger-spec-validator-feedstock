@@ -17,14 +17,14 @@ requirements:
   build:
     - python
     - setuptools
-    - yaml
+    - pyyaml
 
   run:
     - python
     - jsonschema
     - six
     - setuptools
-    - yaml
+    - pyyaml
 
 test:
   imports:
