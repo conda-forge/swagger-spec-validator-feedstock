@@ -17,12 +17,14 @@ requirements:
   build:
     - python
     - setuptools
+    - yaml
 
   run:
     - python
     - jsonschema
     - six
     - setuptools
+    - yaml
 
 test:
   imports:
