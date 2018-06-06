@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: swagger-spec-validator
@@ -7,7 +7,7 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/Yelp/swagger_spec_validator/archive/v{{ version }}.tar.gz
-  sha256: bf3a816e3f44edca2e30ed3af68826e84037ed69d2e985406ba3a5a9e0c0b3a0
+  sha256: dc191b145c1665372a33db8712e2b2cdf8873e6b84e9854fabe02848b9f3c83e
 
 build:
   number: 0
@@ -17,12 +17,14 @@ requirements:
   build:
     - python
     - setuptools
+    - pyyaml
 
   run:
     - python
     - jsonschema
     - six
     - setuptools
+    - pyyaml
 
 test:
   imports:
