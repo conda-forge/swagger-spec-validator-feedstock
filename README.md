@@ -14,9 +14,8 @@ Summary: Validation of Swagger specifications
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/swagger-spec-validator-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/swagger-spec-validator-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/swagger-spec-validator-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/swagger-spec-validator-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/swagger-spec-validator-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/swagger-spec-validator-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/swagger-spec-validator-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/swagger-spec-validator-feedstock)
 
 Current release info
 ====================
