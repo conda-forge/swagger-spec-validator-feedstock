@@ -1,4 +1,4 @@
-{% set version = "2.4.3" %}
+{% set version = "2.5.0" %}
 
 package:
   name: swagger-spec-validator
@@ -7,12 +7,12 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/Yelp/swagger_spec_validator/archive/v{{ version }}.tar.gz
-  sha256: 52afefa3b2203540a08957961021e2bf01c29a584a629c1e3d10989b9b54b283
+  sha256: 551c3dc93fd8c88393034b711df54731755b69fc6e330f5b0d6cf594ebe3c592
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ test:
 about:
   home: http://github.com/Yelp/swagger_spec_validator
   license: Apache-2.0
-  summary: 'Validation of Swagger specifications'
+  summary: Validation of Swagger specifications
   license_family: APACHE
   license_file: LICENSE.txt
   dev_url: http://github.com/Yelp/swagger_spec_validator
