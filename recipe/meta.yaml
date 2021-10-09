@@ -1,4 +1,4 @@
-{% set version = "2.7.3" %}
+{% set version = "2.7.4" %}
 
 package:
   name: swagger-spec-validator
@@ -7,7 +7,7 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/Yelp/swagger_spec_validator/archive/v{{ version }}.tar.gz
-  sha256: 55523e8a2cc4e27557d0e74c7477cc66f8cc8ccf15d5dc48e73c7686bf19314b
+  sha256: 7ff5779c0d7d8a6d697fdb9864df60780c27833c95f7850a6ade28e8d8eac1af
 
 build:
   noarch: python
