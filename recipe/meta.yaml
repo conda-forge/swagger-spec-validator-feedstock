@@ -20,6 +20,7 @@ requirements:
     - python >=3.6
     - setuptools
     - pyyaml
+    - typing_extensions
 
   run:
     - python >=3.6
@@ -27,6 +28,7 @@ requirements:
     - six
     - setuptools
     - pyyaml
+    - typing_extensions
 
 test:
   imports:
