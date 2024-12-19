@@ -7,7 +7,7 @@ package:
 source:
   fn: v{{ version }}.tar.gz
   url: https://github.com/Yelp/swagger_spec_validator/archive/v{{ version }}.tar.gz
-  sha256: 7327fee978b46c7fff7e4f59c0ea7857670ec0b534cb8935defee91612b976e2
+  sha256: 4ac92170d30554bfa71330f89bad74f9b3ef4cc1f594bebb8e8901b3d999c7bf
 
 build:
   noarch: python
