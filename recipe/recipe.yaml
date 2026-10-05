@@ -36,6 +36,14 @@ tests:
       python_version:
         - ${{ python_min }}.*
         - "*"
+  - requirements:
+      run:
+        - pytest
+    files:
+      source:
+        - tests/
+    script:
+      - pytest -vv
 
 about:
   license: Apache-2.0
